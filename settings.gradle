@@ -1,0 +1,10 @@
+rootProject.name = 'java-ddd'
+
+include ':shared'
+project(':shared').projectDir = new File('src/shared')
+
+include ':internal'
+project(':internal').projectDir = new File('src/internal')
+
+
+
